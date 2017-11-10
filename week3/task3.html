@@ -4,17 +4,21 @@
       nav{
         background-color: #B9B9B9;
       }
-      nav a{
-        text-decoration: none;
-        font-size: 20;
-        color: black;
-        padding-left: 50px;
-        padding-right: 50px;
+      .active a{ 
+          background-color: #d3d3d3; 
+          text-decoration: none;
+          font-size: 25px;
+          color: black; 
+          border: 2px solid #d3d3d3;
+          padding-left:20px; 
+          padding-right: 20px; 
+        } 
+      .active a:hover{ 
+          transition: 0.2s all; 
+        background-color: #ff0000; 
+        color: white; 
       }
-      .active{
-        background-color: red;
-        color: white;
-      }
+      
       footer{
         text-align: center;
         padding: 15 0 15 0;
@@ -61,6 +65,7 @@
       .container{
         opacity: 0.9;
         width: 50%;
+        padding-bottom: 500px;
         background-color: white;
         margin-top: -10px;
         margin-left: 350px;
@@ -70,8 +75,8 @@
   <body>
     <div class="container">
     <header>
-      <nav>
-        <a href="#" class='active'>Home</a><a href="#">Contacts</a><a href="#">About us</a><a href="#">Comitee</a>
+      <nav class='active'>
+        <a href="#" >Home</a><a href="#">Contacts</a><a href="#">About us</a><a href="#">Comitee</a>
       </nav>
       <div class="logo_part">
          <img src="http://via.placeholder.com/200x100"/>

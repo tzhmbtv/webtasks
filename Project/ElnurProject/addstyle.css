@@ -1,0 +1,86 @@
+
+.telo{
+	min-width: 80%;
+	min-height: 100%;
+	margin: 0px ;
+	padding: 0px; 
+	/*background-image: url(element/back.jpg);
+	background-repeat: no-repeat;*/
+	 
+}
+@media screen and (max-device-width: 500px){
+	.telo{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	.telo .header a{
+		display: none;
+	}
+	.telo .header {
+		display: flex;
+		justify-content: center;
+	}
+
+}
+.header{
+	display: inline-flex;
+	border: 1px solid #242323;
+	background-color: #242323;
+	color: #ffffff;
+	width: 100%;
+	margin-left:-2px;
+}
+.header a{
+	margin-top: 23px;
+	text-decoration: none;
+	color: #939393;
+	padding-right: 100px;
+	font: normal normal normal 17px/1.3em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}
+.header h2{
+	margin-left: 2%;
+}
+.header a:hover{
+	transition: 0.2s all;
+	color: #ffffff;
+}
+#main{ 
+width: 100vw; 
+height: 70%; 
+margin-bottom: 20px; 
+padding-bottom: 20px; 
+} 
+#main .add{ 
+font-family: "OpenSansCondensedBold"; 
+font-size: 40px; 
+padding-left: 50px; 
+} 
+#main .some{ 
+line-height: 0.5; 
+font-family: "OpenSansCondensedBold"; 
+font-size: 20px; 
+padding-left: 50px; 
+} 
+.advert p{ 
+font-family: "OpenSansCondensedBold"; 
+font-size: 15px; 
+margin-right: 50px; 
+padding-left: 50px; 
+} 
+.advert button{ 
+width: 180px; 
+height: 50px; 
+border-radius: 00px; 
+background-color: black; 
+color: white; 
+font-size: 20px; 
+font-family: "OpenSansCondensedBold"; 
+border:0px; 
+margin-left: 50px; 
+} 
+.advert input{ 
+width: 190px; 
+}

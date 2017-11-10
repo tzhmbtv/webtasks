@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="t1js.js" defer></script>
+		<style type="text/css">
+			.row{
+				display: flex;
+			}
+			.row input{
+				height: 30px;
+				font-weight: bold;
+				text-align: center;
+			}
+			#b1{
+				text-align: center;
+				color:green;
+				font-weight: bold;
+				font-size: 20px;
+				height: 30px;
+			}
+			#res{
+				margin-top: -2px;
+				font-size: 25px;
+				color: red;
+				font-weight: bold;
+			}
+		</style>
+		<title>T1</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<input id="tf1" type="text" size="10">
+				<input id="tf2" type="text" size="10">
+				<input id="tf3" type="text" size="10">
+			</div>
+			<div class="row">
+				<input id="tf4" type="text" size="10">
+				<input id="tf5" type="text" size="10">
+				<input id="tf6" type="text" size="10">
+			</div>
+			<div class="row">
+				<input id="tf7" type="text" size="10">
+				<input id="tf8" type="text" size="10">
+				<input id="tf9" type="text" size="10">
+			</div>
+			<button id="b1">Find determinant</button>
+			<p id="res">0</p>
+		</div>
+	</body>
+</html>
